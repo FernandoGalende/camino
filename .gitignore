@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build
+dist
+dist-ssr
+storybook-static
+
+# Editor
+*.local
+.vscode/*
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+
+*storybook.log
