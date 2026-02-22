@@ -9,30 +9,32 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "sync-tokens": "tsx scripts/sync-tokens.ts"
   },
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^5.0.1",
+    "@storybook/addon-a11y": "^10.2.10",
+    "@storybook/addon-docs": "^10.2.10",
+    "@storybook/addon-onboarding": "^10.2.10",
+    "@storybook/addon-vitest": "^10.2.10",
+    "@storybook/react-vite": "^10.2.10",
     "@tailwindcss/vite": "^4.2.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.4",
+    "@vitest/browser-playwright": "^4.0.18",
+    "@vitest/coverage-v8": "^4.0.18",
+    "playwright": "^1.58.2",
+    "storybook": "^10.2.10",
     "tailwindcss": "^4.2.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
-    "storybook": "^10.2.10",
-    "@storybook/react-vite": "^10.2.10",
-    "@chromatic-com/storybook": "^5.0.1",
-    "@storybook/addon-vitest": "^10.2.10",
-    "@storybook/addon-a11y": "^10.2.10",
-    "@storybook/addon-docs": "^10.2.10",
-    "@storybook/addon-onboarding": "^10.2.10",
-    "vitest": "^4.0.18",
-    "playwright": "^1.58.2",
-    "@vitest/browser-playwright": "^4.0.18",
-    "@vitest/coverage-v8": "^4.0.18"
+    "vitest": "^4.0.18"
   }
 }
