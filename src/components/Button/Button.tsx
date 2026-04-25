@@ -69,7 +69,7 @@ export function Button({
     <button
       className={[
         'inline-flex items-center justify-center overflow-clip',
-        'font-[family-name:var(--typography-fontfamily-primary)] font-[var(--typography-fontweight-bold)]',
+        'font-primary font-[var(--typography-fontweight-bold)]',
         'text-[length:var(--typography-fontsize-300)] leading-[var(--typography-lineheight-300)]',
         'tracking-[var(--typography-letterspacing-xs)]',
         'transition-colors duration-150 ease-in-out',
