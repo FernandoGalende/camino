@@ -158,7 +158,7 @@
   --color-text-error: var(--color-error-700);
   --color-text-seconary: var(--color-neutral-700);
   --color-bg-default: var(--color-secondary-100);
-  --color-bg-interactive-primary-default: var(--color-primary-400);
+  --color-bg-interactive-primary-default: var(--color-primary-600);
   --color-bg-interactive-primary-hover: var(--color-primary-500);
   --color-bg-interactive-primary-pressed: var(--color-primary-500);
   --color-bg-interactive-primary-dissabled: var(--color-neutral-600);
